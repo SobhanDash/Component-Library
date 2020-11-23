@@ -28,22 +28,19 @@ hr {
 }
 
 /** links **/
-.link-primary {
+.link {
     text-decoration: none;
     width: max-content;
     min-width: 140px;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.link-primary {
     background-color: var(--primary);
     color: white;
 }
 
 .link-secondary {
-    text-decoration: none;
-    width: max-content;
-    min-width: 140px;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
     color: var(--primary);
     border: 1px solid var(--primary);
 }
@@ -58,3 +55,31 @@ hr {
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+/** navigation **/
+
+
+.navigation {
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.naviagtion .active {
+    font-weight: bold;
+}
+
