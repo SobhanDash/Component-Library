@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+ /** root **/
+:root{
+    --primary: #5B21B6;
+    --gray: #F3F4F6;
+    --dark-gray:#6B7280;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    margin: 2rem 0rem;
 }
 
 /** container **/
@@ -13,5 +24,26 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
-    
+    padding: 1rem 1rem;
+}
+
+/** links **/
+.link-primary {
+    text-decoration: none;
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: var(--primary);
+    color: white;
+}
+
+.link-secondary {
+    text-decoration: none;
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: var(--primary);
+    border: 1px solid var(--primary);
 }
