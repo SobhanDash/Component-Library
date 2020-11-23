@@ -83,3 +83,25 @@ hr {
     font-weight: bold;
 }
 
+/** header **/
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-ing {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.hero .hero-heading .header-inverted {
+    color: var(--primary)
+}
+
