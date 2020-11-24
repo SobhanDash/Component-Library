@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobhan's component library</title>
-    
-    
-    <link href="style.css" rel="stylesheet" />         
-    
+
+
+    <link href="style.css" rel="stylesheet" />
+
 </head>
+
 <body>
     <h1> Component library </h1>
     <p><strong>I am Sobhan Dash</strong></p>
     <p>This is a component library created to better design each element.</p>
-   
+
 
 
     <hr>
 
-    
+
 
     <h2>@typography</h2>
     <h1>The biggest heading h1</h1>
     <h2>The second biggest heading h2</h2>
 
-    
+
     <p class="para">This is normal text. Long running text would look like this on your website.
-         This will auto fold based on the width</p>
+        This will auto fold based on the width</p>
     <p class="text-sm">This is relatively smaller text</p>
 
     <hr>
     <h2>@containers </h2>
 
-    <h3>@fluid container</h3> 
+    <h3>@fluid container</h3>
     <div class="container-fluid">
         This is going to be a fluid container. It will go full width of page. With some margin.
     </div>
@@ -45,7 +47,7 @@
     <hr>
     <h2>@links</h2>
 
-    <a  class=" link link-primary" href="/"> Primary Link</a>
+    <a class=" link link-primary" href="/"> Primary Link</a>
     <a class=" link link-secondary" href="/"> Secondary Link</a>
 
     <hr>
@@ -91,18 +93,18 @@
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link" href="/" class="active">home</a>
-                
+
             </li>
             <li class="list-item-inline">
                 <a class="link" href="/">products</a>
-                
+
             </li>
             <li class="list-item-inline">
                 <a class="link" href="/">about</a>
             </li>
         </ul>
         </div>
-        
+
     </nav>
     <hr>
 
@@ -110,7 +112,7 @@
     <h2> @header </h2>
 
     <header class="hero">
-        <img class="hero-ing" src="hero.svg"/>
+        <img class="hero-ing" src="hero.svg" />
         <h1 class="hero-heading">I'm a <span class="header-inverted">web developer</span>. </h1>
     </header>
 
@@ -118,25 +120,26 @@
 
     <h2> @section</h2>
 
-    <p> A section is used to separate parts of pages. In marketing websites you would have seen a header 
+    <p> A section is used to separate parts of pages. In marketing websites you would have seen a header
         followed by sections of features, team, pricing, contact info etc.</p>
-    <h3>@normal section</h3>
+    <div class="container container-center">
     <section class="section">
-        <h2> heading inside section</h2>
+        <h1>@normal section</h1>
         <p>Text defining this section and many more things</p>
         <a href="" class="primary-link"> Primary Button</a>
     </section>
+    </div>
 
-    <h3>@an off white section</h3>
+    <div class="container container-center">
     <section class="section ow">
-        <h2> inside off white section</h2>
+        <h1>@an off white section</h1>
         <p>Text defining this section and many more things</p>
         <a href="/" class="primary-link"> Primary Button</a>
     </section>
-
+    </div>
     <hr>
 
-    
+
     <h2>@footer</h2>
     <footer class="footer container-fluid">
         <div class="container">
@@ -149,4 +152,5 @@
         </div>
     </footer>
 </body>
+
 </html>

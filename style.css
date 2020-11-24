@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
- /** root **/
-:root{
+/** root **/
+:root {
     --primary: #5B21B6;
     --gray: #F3F4F6;
-    --dark-gray:#6B7280;
+    --dark-gray: #6B7280;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,12 +16,12 @@ hr {
 }
 
 /** container **/
-.container-fluid{
+.container-fluid {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
     padding: 1rem 1rem;
@@ -35,6 +35,7 @@ hr {
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
+
 .link-primary {
     background-color: var(--primary);
     color: white;
@@ -104,4 +105,20 @@ hr {
 .hero .hero-heading .header-inverted {
     color: var(--primary)
 }
+
+/** section **/
+
+.section {
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+    
+}
+
+.ow {
+    background-color: var(--gray);
+}
+
+/** footer **/
 
